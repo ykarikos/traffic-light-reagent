@@ -1,6 +1,7 @@
 (ns traffic-light-reagent.core
     (:require
-      [reagent.core :as r]))
+      [reagent.core :as r]
+      [beicon.core :as rx]))
 
 (def opacity-cycle
   ; Red  Yellow Green
@@ -18,9 +19,11 @@
 ;; Views
 
 (defn traffic-light []
-  (let [cycle-index (r/atom 0)]
+  (let [cycle-index (r/atom 0)
+        stream (->> (rx/timer 1500 1500)
+                    (rx/map increment-cycle))]
+    (rx/subscribe stream #(reset! cycle-index %))
     (fn []
-      (js/setTimeout #(swap! cycle-index increment-cycle) 1500)
       [:div {:style {:background "#000"
                      :margin "auto"
                      :width "120px"
