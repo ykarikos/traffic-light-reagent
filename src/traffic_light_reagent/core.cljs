@@ -7,9 +7,9 @@
 
 (defn home-page []
   [:div {:class "traffic-light"}
-   [:div]
-   [:div]
-   [:div]])
+   [:div {:class "light red"}]
+   [:div {:class "light yellow"}]
+   [:div {:class "light green"}]])
 
 ;; -------------------------
 ;; Initialize app
