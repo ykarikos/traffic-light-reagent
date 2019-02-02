@@ -1,4 +1,4 @@
-# Traffic lights on Reagent
+# 🚦 Traffic lights on Reagent
 
 Inspired by [Olavi's](https://twitter.com/0lpeh) [tweet](https://twitter.com/0lpeh/status/1090301982173261825), I gave a try using [Reagent](https://reagent-project.github.io/).
 
