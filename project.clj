@@ -1,8 +1,8 @@
 (defproject traffic-light-reagent "0.1.0-SNAPSHOT"
-  :description "FIXME: write description"
-  :url "http://example.com/FIXME"
-  :license {:name "Eclipse Public License"
-            :url "http://www.eclipse.org/legal/epl-v10.html"}
+  :description "Traffic lights on Reagent"
+  :url "https://github.com/ykarikos/traffic-light-reagent"
+  :license {:name "MIT"
+            :url "https://github.com/ykarikos/traffic-light-reagent/blob/master/LICENSE"}
 
   :dependencies [[org.clojure/clojure "1.10.0"]
                  [org.clojure/clojurescript "1.10.516"]
