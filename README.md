@@ -6,6 +6,8 @@ There's two versions:
 - One using `js/setTimeout` in the [master](https://github.com/ykarikos/traffic-light-reagent/tree/master) branch
 - Another using [Beicon](http://funcool.github.io/beicon/latest/) in the [streams](https://github.com/ykarikos/traffic-light-reagent/tree/streams) branch
 
+Check the running demo at https://ykarikos.github.io/traffic-light-reagent/
+
 ### Development mode
 
 To start the Figwheel compiler, navigate to the project folder and run the following command in the terminal:
