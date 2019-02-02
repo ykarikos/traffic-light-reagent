@@ -23,9 +23,9 @@
       (js/setTimeout #(swap! cycle-index increment-cycle) 1500)
       [:div {:style {:background "#000"
                      :margin "auto"
-                     :width "120px"
-                     :padding "10px"
-                     :font-size "215px"
+                     :width "130px"
+                     :padding "0 0 30px 0"
+                     :font-size "210px"
                      :line-height "100px"
                      :text-align "center"}}
        [:div {:style {:color "#f00"
